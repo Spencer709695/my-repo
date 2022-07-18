@@ -9,6 +9,6 @@ exports.ci_cd_sum = (req, res) => {
     let x = Number(req.query.x);
     let y = Number(req.query.y);
     result = x + y;
-    //This will return String
+    //This will return a String
     res.status(200).send(result.toString());
 };
